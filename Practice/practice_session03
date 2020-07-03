@@ -1,0 +1,29 @@
++ Problem:Find maximum number between two numbers
++ Step1: out: "enter 2 numbers"
++ Step2: in: a, b 
++ Step3: check a > b 
++ Step4: if yes: a > b; go to step6
+         if no: go to step7
++ Step5: out: Max num: a
++ Step6: out: Max num: b
++ Step7: finish
+-----------
+
++ Problem:Find even numbers in N numbers
++ Step1: out: "how many numbers do you want to enter?"
++ Step2: in: N
++ Step3: While N > 0: "enter a number"
++ Step4: in: num
++ Step5: check num%2=0
++ Step6: if yes: out: num
++ Step7: if no: Step3
++ Step8: finish
+------------
+
++ Problem:Print Absolute value of negative numbers in N numbers
++ Step1: out: "how many numbers do you want to enter?"
++ Step2: in: N
++ Step3: While N > 0: "enter a number"
++ Step4: in: num
++ Step5: abs(num) out:num
+

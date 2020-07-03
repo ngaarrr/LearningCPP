@@ -1,0 +1,37 @@
++ Problem: Find even and negative numbers in N numbers
++ Step1: "How many numbers do you want to enter?"
++ Step2: in: N
++ Step3: While N > 0: "enter a number"
++ Step4: in: num
++ Step5: check num < 0
++ Step6: if yes: step8 if yes: out:num 
++ Step7: if no: Step4
++ Step8: check num%2=0 
++ Step9: if yes: out: num; N = N -1 go to step3
++ Step10: if no: Step4
++ Step11: Finish
+-----------------------
+
++ Problem: Calculate Average of 5 scores of N student
++ Step1: out: "how many students do you have?"
++ Step2: in: N 
++ Step3: While N > 0: "enter 5 numbers"
++ Step4: in: a, b, c, d, e 
++ Step5: ave = (a+b+c)/5
++ Step6: out: "Average is " ave; N = N - 1 go to step3
++ Step7: Finish
+----------------------
+
++ Problem: Find numbers that count of 1s in their binary format is even
++ Step1: out: "enter a number"
++ Step2: in: num
++ Step3: if num > 0: binary number = n%2; n/2
++ Step4: out:binary num: binary number
+-----------------------
+
++ Problem: in: get decimal number out: print number of bits each have in binary format
++ Step1: in: number
+-------------------------
+
+			
++ Problem: in: get decimal number out: print numbers greater than 9 in its hex format
