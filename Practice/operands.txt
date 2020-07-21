@@ -1,0 +1,26 @@
+Operators & Operands
+
+Operators: + , -, *, /, %, ==, &&, ...
+Operands: constants (1, 2, 3, ...), variables (a, b, c, ...), complex expressions
+
+-Unary operator: requires one operand
+    -Unary: + - ex. -A
+    -Increment & Decrement: ++ --  ex. A++ A += 1 A = A + 1
+
+-Binary operator: requires two operands
+    -Arithmetic: + - * / %  ex.  A + B = C
+    -Relational: < > <= >= != == ex. A > B
+    -Logical: && || ! (and or not) ex. 0 && 1 = 0, 0 || 1 = 1, ! 0 = 1
+    -Bitwise: & | ~ ^ << >> (and or not xor left-shift right-shift) ex. 1 ^ 1 = 0, 0000 0001 << 1 : 1
+    -Assignment/Compound: = += -= *= /= 5= ex. A += 5 A = A + 5, A -= B A = A - b
+    -Comma: ex. A = (b = 2, c = 3, b + c) 
+
+- Ternary/Conditional operator:requires three operands
+    ? (condition) ? true : false ex. A = (B > C) ? B = C
+
+Operator Precedence   
+    - () * / %, + -, = ex. A = 10 - 6 / 2,  6 / 2 = 3 10 - 3 = 7 A = 7
+    - () ex. A = (10 - 6) / 2, 10 - 6 = 4 4 / 2 = 2 A = 2
+ Operator Associativity   
+    -Arithmetic operators are associated left to right ex. A + B + C, A + B first
+    -Assignment operators and increment/decrement are associated right to left
