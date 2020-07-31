@@ -3,8 +3,6 @@
 
 #include "headerLib.h"
 
-int factorial(int num);
-
 int main()
 {
     int num = 4;
@@ -15,16 +13,12 @@ int main()
     //three dimensional array
     int x[2][3][2] =
         {
-            {
-                {2, 3},
-                {3, 4},
-                {7, 9},
-            },
-            {
-                {1, 5},
-                {6, 1},
-                {8, 1},
-            }};
+            {{2, 3},
+             {3, 4},
+             {7, 9}},
+            {{1, 5},
+             {6, 1},
+             {8, 1}}};
     int counter = 0;
     for (int i = 0; i < 2; ++i)
     {
