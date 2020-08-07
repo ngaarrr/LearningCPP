@@ -1,0 +1,6 @@
+A complire's job is to translate the code that we write to something that the computer can read.
+How to compile a code using terminal:
+    - ++g FILENAME
+You will then get a file called a.out.
+To execute this file using terminal:
+    - ./a.out
