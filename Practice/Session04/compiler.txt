@@ -1,4 +1,11 @@
+Compilar
 A complire's job is to translate the code that we write to something that the computer can read.
+The steps:
+1.preprocessor produces a source file.
+2.Compiler takes the source code and compiles it into object files.
+3.The linker takes object files and links them to executable program.
+---------------------------------------
+
 How to compile a code using terminal:
     - ++g FILENAME -o newfilename
 You will then get a file called a.out.
